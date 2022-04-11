@@ -9,7 +9,7 @@ var estatica = document.querySelector("static")
 
 var cont = 0;
 
-//janela.play()
+janela.play()
 
 opcao1.addEventListener("mouseover", function(){
     papel.play();
@@ -24,7 +24,7 @@ opcao1.addEventListener("click", function(){
         texto[2].innerHTML = "";
         cont = 1;
     }else if(cont == 1){
-        location.href = "../TerceiraEscolha/Terceira.html";
+        location.href = "../Final/Final.html";
     };
     
     opcao2.classList.add("desaparecer");
