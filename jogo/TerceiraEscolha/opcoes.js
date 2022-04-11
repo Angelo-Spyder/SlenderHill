@@ -5,7 +5,7 @@ var opcao2 = document.querySelector("#opcao2");
 var texto = document.querySelectorAll(".texto-historia")
 var papel = document.querySelector(".paper-slide");
 var janela = document.querySelector(".janela")
-var estatica = document.querySelector("static")
+var estatica = document.querySelector(".static")
 
 var cont = 0;
 
