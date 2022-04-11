@@ -34,7 +34,7 @@ body{
     width: 100%;
 }
 .conteudo-secundario{
-    margin: 60px;
+    margin: 90px;
 }
 .botoes{
     width: 300px;
@@ -55,4 +55,9 @@ body{
     cursor: pointer;
     transition: 0.5s;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0.404) 10%, rgba(255, 255, 255, 0.034));
+}
+
+.desaparecer{
+    transition: 1s;
+    opacity: 0;
 }
