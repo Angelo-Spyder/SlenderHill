@@ -18,7 +18,7 @@ opcao1.addEventListener("click", function(){
         texto.textContent = `Ao falar com a pessoa ela te entrega um bilhete "Não confie nos adultos" e some antes que possa perguntar. Enquanto isso alguém assalta um turista e consegue escapar.`
         cont = 1;
     }else if(cont == 1){
-        location.href = "/home.html";
+        location.href = "../SegundaEscolha/Segunda.html";
     };
     
     opcao2.classList.add("desaparecer");
@@ -39,7 +39,7 @@ opcao2.addEventListener("click", function(){
         texto.textContent = `Devia ser alguém te confundindo, ao prosseguir você avista um ladrão roubando o dinheiro de um turista e consegue pará-lo com facilidade, o prende em um poste até a segurança chegar. Que bom que deu tempo.`
         cont = 1;
     }else if(cont == 1){
-        location.href = "/home.html";
+        location.href = "../SegundaEscolha/Segunda.html";
     };
     
     opcao1.classList.add("desaparecer");
