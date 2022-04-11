@@ -1,0 +1,58 @@
+body{
+    background: linear-gradient(40deg,rgba(0, 0, 0, 0.822) 90%, rgba(128, 128, 128, 0.267));
+    background-repeat: no-repeat;
+    color: white;
+}
+.cabecalho{
+    text-align: center;
+    padding: 20px;
+}
+.titulo-ato{
+    font-size: 35px;
+    font-family: 'Lacquer', cursive;
+}
+.conteudo-primario{
+    margin: 50px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.secao-texto{
+    padding: 20px;
+    width: 500px;
+    background: rgba(255, 255, 255, 0.055);
+    border-radius: 10px;
+}
+.texto-historia{
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+}
+.secao-imagem{
+    width: 400px;
+}
+.imagem-historia{
+    box-shadow: 2px 2px 5px 10px rgba(0, 0, 0, 0.178);
+    width: 100%;
+}
+.conteudo-secundario{
+    margin: 60px;
+}
+.botoes{
+    width: 300px;
+    margin:0 auto;
+}
+.botao-opcao{
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    border: none;
+    background: rgba(255, 255, 255, 0.507);
+    font-size: 18px;
+    font-family: 'Inconsolata', monospace;
+    padding: 10px;
+    color: white;
+}
+.botao-opcao:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0.404) 10%, rgba(255, 255, 255, 0.034));
+}
