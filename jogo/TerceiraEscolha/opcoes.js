@@ -49,7 +49,7 @@ opcao2.addEventListener("click", function(){
         texto[2].innerHTML = ""
         cont = 1;
     }else if(cont == 1){
-        location.href = "/home.html";
+        location.href = "/index.html";
     };
     
     opcao1.classList.add("desaparecer");
