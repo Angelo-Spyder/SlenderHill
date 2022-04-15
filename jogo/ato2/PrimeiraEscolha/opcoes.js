@@ -16,7 +16,7 @@ opcao1.addEventListener("click", function(){
     if(cont == 0){
         opcao1.textContent = `prosseguir`;
         texto[0].textContent = "A pessoa diz: "
-        texto[1].textContent = `"A cidade é assim faz muito tempo, não há mais movimento por conta de desaparecimento de pessoas, ninguém veio ajudar espero que possa fazer algo por aqui algumas pessoas chegam a descrever quem faz isso, mas nunca deu em algo expecífico. Preciso ir agora, estou com presa".`
+        texto[1].textContent = `"A cidade é assim faz muito tempo, não há mais movimento por conta de desaparecimento de pessoas, ninguém veio ajudar espero que possa fazer algo por aqui algumas pessoas chegam a descrever apenas alguém de terno, algum maluco. Preciso ir agora, estou com presa".`
         texto[2].textContent = ""
         cont = 1;
     }else if(cont == 1){
