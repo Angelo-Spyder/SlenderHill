@@ -8,6 +8,6 @@ opcao1.addEventListener("mouseover", function(){
 });
 
 opcao1.addEventListener("click", function(){
-    location.href = "../../"
+    location.href = "../../../"
 });
 
