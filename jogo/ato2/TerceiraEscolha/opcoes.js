@@ -19,7 +19,7 @@ opcao1.addEventListener("click", function(){
         texto[1].textContent = `"Estou tentando ajudar, eu não posso ficar tanto tempo aqui fora, siga em frente já fiz o que pude."`
         cont = 1;
     }else if(cont == 1){
-        location.href = "../TerceiraEscolha/Terceira.html";
+        location.href = "../TerceiraEscolha/Ter";
     };
     
     opcao2.classList.add("desaparecer");
