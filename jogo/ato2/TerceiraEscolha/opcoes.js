@@ -15,11 +15,11 @@ opcao1.addEventListener("click", function(){
     
     if(cont == 0){
         opcao1.textContent = `prosseguir`;
-        texto[0].textContent = `Ela diz:`
-        texto[1].textContent = `"Estou tentando ajudar, eu não posso ficar tanto tempo aqui fora, siga em frente já fiz o que pude."`
+        texto[0].textContent = `Loupan olha incrédulo e diz: `
+        texto[1].textContent = `"Se estiver indo atrás disso como a outra pessoa estava, pode ser que se meta em algo pior, esse rabisco é muito parecido com o que a Ema fala ter visto, sem dúvidas eu passei muito tempo com ela depois do sumiço da filha dela, ela mora ali perto."`
         cont = 1;
     }else if(cont == 1){
-        location.href = "../TerceiraEscolha/Ter";
+        location.href = "../QuartaEscolha/Quarta.html";
     };
     
     opcao2.classList.add("desaparecer");
@@ -37,8 +37,8 @@ opcao2.addEventListener("click", function(){
     
     if(cont == 0){
         opcao2.textContent = `prosseguir`;
-        texto[0].textContent = `Ela diz:`
-        texto[1].textContent = `"Uma pessoa que é o responsável  por tudo que tá acontecendo. Pessoas que foram contra ele sumiram sem explicação ou enlouqueceram. Preciso ir, tenho pouco tempo."`
+        texto[0].textContent = `Loupan se questiona e diz: `
+        texto[1].textContent = `"Olha muitas pessoas têm falado que foram atormentadas e algumas até nunca mais vi, acho que foram embora por algum problema ou surto, dizem ter ouvido chiados e ter visto alguém de terno as atormentando como um fantasma, a Ema é quem está dizendo isso agora, desde que a filha dela sumiu diz a mesma coisa com palavras diferentes."`
         cont = 1;
     }else if(cont == 1){
         location.href = "../TerceiraEscolha/Terceira.html";
