@@ -49,12 +49,11 @@ opcao2.addEventListener("click", function(){
         texto[2].innerHTML = ""
         cont = 1;
     }else if(cont == 1){
-        location.href = "../../../";
-    };
-    
+        location.href = "../../../";   
     opcao1.classList.add("desaparecer");
     setTimeout(
         () => {
             opcao1.remove();
         },1000);
+    }
 });
