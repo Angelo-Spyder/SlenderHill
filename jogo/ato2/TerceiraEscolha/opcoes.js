@@ -2,8 +2,11 @@
 var opcao1 = document.querySelector("#opcao1");
 var opcao2 = document.querySelector("#opcao2");
 
-var texto = document.querySelectorAll(".texto-historia")
+var texto = document.querySelectorAll(".texto-historia");
 var papel = document.querySelector(".paper-slide");
+
+var secaoImagem = document.querySelector(".secao-imagem")
+var imagem = document.querySelector(".imagem-historia");
 
 var cont = 0;
 
@@ -17,6 +20,10 @@ opcao1.addEventListener("click", function(){
         opcao1.textContent = `prosseguir`;
         texto[0].textContent = `Loupan olha incrédulo e diz: `
         texto[1].textContent = `"Se estiver indo atrás disso como a outra pessoa estava, pode ser que se meta em algo pior, esse rabisco é muito parecido com o que a Ema fala ter visto, sem dúvidas eu passei muito tempo com ela depois do sumiço da filha dela, ela mora ali perto."`
+
+        imagem.remove();
+        secaoImagem.innerHTML = `<img style="opacity: 0.4; transform: rotate(180deg);" class="imagem-historia" src="../../../Images/slender-fundoBranco.png" alt="">`;
+
         cont = 1;
     }else if(cont == 1){
         location.href = "../QuartaEscolha/Quarta.html";
