@@ -1,0 +1,56 @@
+body{
+  background: url("../../../../Images/Slender-Capa02.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+.cabecalho{
+  text-align: center;
+  margin: 20px 0;
+}
+.titulo-do-jogo{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: 'Lacquer', cursive;
+}
+.conteudo-principal{
+  width: 500px;
+  background: rgba(255, 255, 255, 0.055);
+  padding: 40px;
+  border-radius: 10px;
+  margin: 50px auto;
+}
+.conteudo-principal-texto{
+  padding: 20px;
+}
+.texto-principal-inicial{
+  font-size: 25px;
+  font-family: 'Inconsolata', monospace;
+}
+.conteudo-secundario{
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+}
+#botao-comecar{
+  border: none;
+  background: rgba(255, 255, 255, 0.507);
+  font-size: 28px;
+  font-family: 'Inconsolata', monospace;
+  padding: 10px;
+  color: white;
+}
+#botao-comecar:hover{
+  cursor: pointer;
+  transition: 0.5s;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.404) 10%, rgba(255, 255, 255, 0.034));
+}
+.rodape{
+  text-align: center;
+  background: rgba(255, 255, 255, 0.034);
+  padding: 10px;
+}
+.rodape-texto{
+  font-size: 18px;
+  font-family: 'Lacquer', cursive;
+}

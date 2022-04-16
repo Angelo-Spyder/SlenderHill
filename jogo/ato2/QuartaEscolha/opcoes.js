@@ -41,7 +41,7 @@ opcao2.addEventListener("click", function(){
         texto[1].textContent = `"Se continua são e bem, algo diz que ele quer algo de você,Talvez por ser peça principal aqui, constantemente aparece como num sonho e não me deixa acordar ou intervindo de alguma forma, eu sei que você deve ter passado pelo mesmo , eu sei que Drakard têm algum envolvimento, mas por favor faça a escolha certa."`
         cont = 1;
     }else if(cont == 1){
-        location.href = "../QuintaEscolha/Quinta.html";
+        location.href = "./SlenderMan/index.html";
     };
     
     opcao1.classList.add("desaparecer");
