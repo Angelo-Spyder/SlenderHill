@@ -41,7 +41,7 @@ opcao2.addEventListener("click", function(){
         texto[1].textContent = `"Uma pessoa que é o responsável  por tudo que tá acontecendo. Pessoas que foram contra ele sumiram sem explicação ou enlouqueceram. Preciso ir, tenho pouco tempo."`
         cont = 1;
     }else if(cont == 1){
-        location.href = "../TerceiraEscolha/Terceira.html";
+        location.href = "./SlenderMan/index.html"
     };
     
     opcao1.classList.add("desaparecer");
