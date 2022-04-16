@@ -14,9 +14,11 @@ opcao1.addEventListener("mouseover", function(){
 opcao1.addEventListener("click", function(){
     
     if(cont == 0){
-        opcao1.textContent = `prosseguir`;
-        texto[0].textContent = `Ela diz:`
-        texto[1].textContent = `"Estou tentando ajudar, eu não posso ficar tanto tempo aqui fora, siga em frente já fiz o que pude."`
+        opcao1.textContent = `ato 3`;
+        texto[0].textContent = `No quarto secreto havia um rádio que ligado fazia o mesmo som de estática, e um terno com uma máscara branca, junto de um diário.`
+        texto[1].textContent = `"Eu imaginava que teria mais sossego, agora só preciso entregar alguém pra finalmente ter minha paz de não ter que sofrer aqueles pesadelos, eu não sei como fui me meter nisso, preciso ir logo ao hospital para fazer a troca."`
+        texto[2].textContent = `Isso comfirma a culpa de Drakard e seu envolvimento com mais alguém.
+        Fim do ato 2`
         cont = 1;
     }else if(cont == 1){
         location.href = "../TerceiraEscolha/Terceira.html";
@@ -36,9 +38,10 @@ opcao2.addEventListener("mouseover", function(){
 opcao2.addEventListener("click", function(){
     
     if(cont == 0){
-        opcao2.textContent = `prosseguir`;
-        texto[0].textContent = `Ela diz:`
-        texto[1].textContent = `"Uma pessoa que é o responsável  por tudo que tá acontecendo. Pessoas que foram contra ele sumiram sem explicação ou enlouqueceram. Preciso ir, tenho pouco tempo."`
+        opcao2.textContent = `ato 3`;
+        texto[0].textContent = `O quarto secreto havia um caderno e rabiscos sem sentido por todo lado.No diário havia escrito:`
+        texto[1].textContent = `Preciso entregar alguém logo, o slender é mais que real é fora de qualquer razão, tanto que nem entendo como ninguém suspeita de mim, e com nosso visitante já garanto uma possível troca, só ir ao hospital e ter minha vida e a de todos em paz, as alucinações mostram quem é escolhido"`
+        texto[2].textContent = `Fim do segundo ato`
         cont = 1;
     }else if(cont == 1){
         location.href = "../TerceiraEscolha/Terceira.html";
