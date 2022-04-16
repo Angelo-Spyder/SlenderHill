@@ -36,13 +36,9 @@ opcao2.addEventListener("mouseover", function(){
 opcao2.addEventListener("click", function(){
     
     if(cont == 0){
-        opcao2.textContent = `prosseguir`;
-        texto[0].textContent = `Drakard começa a dizer:[TROLLAGI]`
-        texto[1].textContent = `"Não foi muito difícil, você se destaca fácil por aqui, enfim, eu recomendo que fique na minha casa hoje, aquilo da sua janela é muito suspeito, pode ser que alguém queira te roubar, já levei suas coisas vamos agora." `
+        location.href = "SlenderMan/index.html"
         cont = 1;
-    }else if(cont == 1){
-        location.href = "../final/final.html";
-    };
+    }
     
     opcao1.classList.add("desaparecer");
     setTimeout(
