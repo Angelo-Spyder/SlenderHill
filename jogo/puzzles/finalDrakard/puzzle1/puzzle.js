@@ -4,12 +4,12 @@ var senhas = ["A","I","P","T"];
 //Bloco 1
 var diminuir01 = document.querySelector("#diminuir-1");
 var aumentar01 = document.querySelector("#aumentar-1");
-var senhaTexto01 = document.querySelector(".senha-1");
+var senhaTexto01 = document.querySelector("#senha-1");
 
 //Bloco 2
 var diminuir02 = document.querySelector("#diminuir-2");
 var aumentar02 = document.querySelector("#aumentar-2");
-var senhaTexto02 = document.querySelector(".senha-2");
+var senhaTexto02 = document.querySelector("#senha-2");
 
 //Contador e Comfirmar
 var comfirmar = document.querySelector("#comfirmar");
