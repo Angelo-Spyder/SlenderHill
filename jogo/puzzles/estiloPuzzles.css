@@ -33,6 +33,11 @@ body{
     padding: 15px;
     background: gray;
     font-size: 30px;
+    transition: 0.5s;
+}
+.botao:hover{
+    cursor:pointer;
+    background: rgba(199, 199, 199, 0.514);
 }
 .senha{
     text-align: center;
@@ -55,7 +60,7 @@ body{
     margin: 10px 0;
     width: 100%;
     border: none;
-    background: rgba(66, 66, 66, 0.795);
+    background: rgb(66, 66, 66);
     font-size: 18px;
     font-family: 'Inconsolata', monospace;
     padding: 10px;
