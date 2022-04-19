@@ -109,7 +109,7 @@ comfirmar.addEventListener("click", function(){
     if(senhaTexto01.textContent == "T" && senhaTexto02.textContent == "A" && senhaTexto03.textContent == "I"){
         iron.play();
         setTimeout(() => {
-            location.href = "../../../ato3Final2/PrimeiraMemoria/PrimeiraMemoria.html"
+            location.href = "../../../ato3Final2/primeiraMemoria/PrimeiraMemoria.html"
         },2000)
     }
 })
