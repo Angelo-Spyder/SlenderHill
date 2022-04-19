@@ -7,5 +7,5 @@ botao.addEventListener("mouseover", function(){
 });
 
 botao.addEventListener("click",function(){
-    location.href = "../../puzzles/finalDrakard/puzzle1/puzzle.html"
+    location.href = "../../puzzles/finalSlender/puzzle1/puzzle.html"
 });
