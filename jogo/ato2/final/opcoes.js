@@ -44,7 +44,7 @@ opcao2.addEventListener("click", function(){
         texto[2].textContent = `Fim do segundo ato`
         cont = 1;
     }else if(cont == 1){
-        
+        location.href = "../../ato3Final2/SlenderMan/index.html"
     };
     
     opcao1.classList.add("desaparecer");
