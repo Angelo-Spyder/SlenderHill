@@ -108,6 +108,9 @@ diminuir03.addEventListener("click", function(){
 comfirmar.addEventListener("click", function(){
     if(senhaTexto01.textContent == "T" && senhaTexto02.textContent == "P" && senhaTexto03.textContent == "I"){
         iron.play();
+        setTimeout(() => {
+            location.href = "../../../ato3Final1/PrimeiraMemoria/PrimeiraMemoria.html"
+        },2000)
     }
 })
 

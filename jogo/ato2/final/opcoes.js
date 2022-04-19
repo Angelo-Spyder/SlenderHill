@@ -14,14 +14,14 @@ opcao1.addEventListener("mouseover", function(){
 opcao1.addEventListener("click", function(){
     
     if(cont == 0){
-        opcao1.textContent = `ato 3 [EM DESENVOLVIMENTO]`;
+        opcao1.textContent = `ato 3`;
         texto[0].textContent = `No quarto secreto havia um rádio que ligado fazia o mesmo som de estática, e um terno com uma máscara branca, junto de um diário.`
         texto[1].textContent = `"Eu imaginava que teria mais sossego, agora só preciso entregar alguém pra finalmente ter minha paz de não ter que sofrer aqueles pesadelos, eu não sei como fui me meter nisso, preciso ir logo ao hospital para fazer a troca."`
         texto[2].textContent = `Isso comfirma a culpa de Drakard e seu envolvimento com mais alguém.
         Fim do ato 2`
         cont = 1;
     }else if(cont == 1){
-        
+        location.href = "../../ato3Final1/inicio/inicio.html"
     };
     
     opcao2.classList.add("desaparecer");
