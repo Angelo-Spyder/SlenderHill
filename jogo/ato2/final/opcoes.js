@@ -38,7 +38,7 @@ opcao2.addEventListener("mouseover", function(){
 opcao2.addEventListener("click", function(){
     
     if(cont == 0){
-        opcao2.textContent = `ato 3 [EM DESENVOLVIMENTO]`;
+        opcao2.textContent = `ato 3`;
         texto[0].textContent = `O quarto secreto havia um caderno e rabiscos sem sentido por todo lado.No diário havia escrito:`
         texto[1].textContent = `Preciso entregar alguém logo, o slender é mais que real é fora de qualquer razão, tanto que nem entendo como ninguém suspeita de mim, e com nosso visitante já garanto uma possível troca, só ir ao hospital e ter minha vida e a de todos em paz, as alucinações mostram quem é escolhido"`
         texto[2].textContent = `Fim do segundo ato`
