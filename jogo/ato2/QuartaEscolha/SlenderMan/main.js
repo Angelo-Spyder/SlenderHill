@@ -13,4 +13,4 @@ comecar.addEventListener("click", function(){
 
 setTimeout( () => {
     location.href = "../../QuintaEscolha/Quinta.html"
-},5000)
+},8000)

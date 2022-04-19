@@ -21,7 +21,7 @@ opcao1.addEventListener("click", function(){
         Fim do ato 2`
         cont = 1;
     }else if(cont == 1){
-        location.href = "../../ato3Final1/inicio/inicio.html"
+        location.href = "../../ato3Final1/Inicio/inicio.html"
     };
     
     opcao2.classList.add("desaparecer");

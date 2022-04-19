@@ -5,4 +5,4 @@ static.play();
 
 setTimeout( () => {
     location.href = "../../final/final.html";
-},5000);
+},8000);
